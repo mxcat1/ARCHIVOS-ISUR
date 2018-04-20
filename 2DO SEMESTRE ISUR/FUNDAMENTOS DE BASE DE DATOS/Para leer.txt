@@ -1,0 +1,17 @@
+Arquitectura
+https://es.slideshare.net/LucelyDelgadoSnchez/arquitectura-de-base-de-datos-75546628
+https://es.slideshare.net/rivero_top/formas-normales-14318283?next_slideshow=1
+https://prezi.com/in1iuwkmuvid/arquitectura-sql-server/
+https://es.slideshare.net/vinivaldivieso/arquitectura-de-bases-de-datos-oracle
+https://prezi.com/vrfauydp1cu3/postgresql-arquitectura-en-rdbms/
+https://es.slideshare.net/bjhp90/arquitectura-e-implementacin-de-postgresql-93
+https://prezi.com/p-y94gcdtdmj/arquitectura-de-la-base-de-datos-mysql/
+https://prezi.com/-sw8_5uvsd8x/arquitectura-de-base-de-datos-mysql/
+Formas Normales
+https://es.slideshare.net/MonjeOneble/formas-normales
+Backup y Recovery
+https://docs.microsoft.com/es-es/sql/relational-databases/backup-restore/complete-database-restores-full-recovery-model
+Vistas
+https://docs.microsoft.com/en-us/sql/t-sql/statements/create-view-transact-sql
+Indices
+https://docs.microsoft.com/en-us/sql/t-sql/statements/create-index-transact-sql

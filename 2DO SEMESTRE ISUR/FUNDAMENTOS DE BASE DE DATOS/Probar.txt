@@ -1,0 +1,53 @@
+1.Elabore un procedimiento que permita la eliminación de una categoría; de estar asociada  a uno o varios productos debe emitir un mensaje que diga;
+“No se puede eliminar la categoría  por estar ligada a uno o varios productos” y de no existir emitirá “La categoría que desea eliminar no existe” 
+y de eliminarla debe emitir “La categoría ha sido eliminada”.
+
+create function CantProductos
+(@cant int)
+returns int 
+as 
+begin 
+declare @Products int 
+set @Products = (select CategoryID
+				from Categories
+				where CategoryID = @cant) 
+IF @Products is null
+	begin 
+	set @Products= -1
+	end;
+else 
+	begin 
+	set @Products= (select count(*) from Products where ProductID = @cant)
+	end;
+return(@Products)
+end;
+------------------------------------------------------------------------------------------------------------ 
+Create procedure EliminaCateg
+(@CatID int)
+as
+begin 
+delete Categories
+where CategoryID=@CatID
+end;
+------------------------------------------------------------------------------------------------------------ 
+create procedure EliminaCategorias
+(@CategoriaID int)
+as begin 
+declare @Retorno varchar(100);
+declare @Cant int ;
+set @Cant = dbo.CantProductos (@CategoriaID);
+If @Cant > 0
+	begin 
+	set @Retorno= 'No se puede eliminar la categoría  por estar ligada a uno o varios productos';
+	end;
+else If @Cant = - 1
+		begin 
+		set @Retorno='La categoría que desea eliminar no existe';
+		end;
+	else 
+		begin 
+		exec dbo.EliminaCateg @CatID = @CategoriaID;
+		set @Retorno= 'La categoría ha sido eliminada'
+		end;
+print @Retorno
+End; 

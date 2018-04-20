@@ -1,0 +1,20 @@
+
+Funciones de agrupación
+
+https://docs.microsoft.com/es-es/sql/t-sql/functions/aggregate-functions-transact-sql
+
+Ejercicios
+
+1.-En una consulta mostrar el nombre y apellidos de las personas nacidas en el mes de marzo
+
+2.-Mostrar el nombre y apellido de los clientes y el numero de prestamo solo de aquellos prestamos cuyo importe sea mayor a 4.5
+
+3.-Mostrar el nombre y apellidos de los clientes que no tienen telefono fijo
+
+4.-Mostrar en una consulta loa cantidad de peliculas existentes.
+
+5.-Mostrar en una consulta el numero de prestamo;la fecha, la cantidad de detalles y el total de importe realizado.
+
+6.-En una consulta mostrar, el nombre de la pelicula y la cantidad de ejemplares que tiene.
+
+7.-Mostrar el nombre del genero y la cantidad de peliculas, asociadas a cada genero.

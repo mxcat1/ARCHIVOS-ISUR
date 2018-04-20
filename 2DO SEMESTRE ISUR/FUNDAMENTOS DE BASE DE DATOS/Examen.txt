@@ -1,0 +1,15 @@
+1.Mencione las caractericticas basicas de la Base de Datos PostGresql
+2.Por que es im portante el procedimiento almacenado en una transaccion en Base de datos
+
+En base a la Base de Datos Northwind:
+
+1.Elabore un procedimiento que permita la eliminación de una categoría; de estar asociada  a uno o varios productos debe emitir un mensaje que diga;
+“No se puede eliminar la categoría  por estar ligada a uno o varios productos” y de no existir emitirá “La categoría que desea eliminar no existe” 
+y de eliminarla debe emitir “La categoría ha sido eliminada”. (3p)
+
+2.Elaborar una tabla resumen compuesta del EmployeeID, otra columna con el total de ordenes por  Employee
+y una última columna con la fecha de la última orden realizada (OrderDate); 
+esta tabla deberá ser actualizada automáticamente por cada inserción nueva que se haga en ORDERS; de existir el employee en la tabla;
+debe actualizar los datos no insertarlos. (4p)
+
+3.Hacer un procedimiento almacenado que determine la cantidad de Employees que se reportan a un determinado Employee. (3p)
