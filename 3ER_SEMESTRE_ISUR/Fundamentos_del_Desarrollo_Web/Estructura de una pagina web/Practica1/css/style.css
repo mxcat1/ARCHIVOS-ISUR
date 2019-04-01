@@ -1,5 +1,23 @@
 * {
   margin: 0;
   padding: 0; }
+  * header {
+    width: auto;
+    height: 20%;
+    background: blanchedalmond; }
+  * section {
+    width: auto;
+    height: 70%;
+    background: blanchedalmond; }
+    * section #feature {
+      display: flex;
+      justify-content: center; }
+      * section #feature img {
+        width: 80%;
+        height: 100%; }
+  * footer {
+    width: auto;
+    height: 10%;
+    background: blue; }
 
 /*# sourceMappingURL=style.css.map */

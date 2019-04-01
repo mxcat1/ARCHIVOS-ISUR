@@ -1,4 +1,27 @@
 *{
   margin: 0;
   padding: 0;
+  header{
+    width: auto;
+    height: 20%;
+    background: blanchedalmond;
+  }
+  section{
+    width: auto;
+    height: 70%;
+    background: blanchedalmond;
+    #feature{
+      display: flex;
+      justify-content: center;
+      img{
+        width: 80%;
+        height: 100%;
+      }
+    }
+  }
+  footer{
+    width: auto;
+    height: 10%;
+    background: blue;
+  }
 }
