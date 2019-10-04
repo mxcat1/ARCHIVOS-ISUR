@@ -1,0 +1,32 @@
+Select ProductID, ProductName,UnitPrice,
+(Select	Top 1
+		C.CompanyName
+From	[Order Details] As OD
+		Inner Join Orders As O
+			On O.OrderID = OD.OrderID
+		Inner Join Customers As C
+			On C.CustomerID = O.CustomerID
+Where	ProductID = P.ProductID
+Group By
+OD.ProductID,
+		C.CompanyName
+		Order By Sum(Quantity) Desc) As Cliente
+From	Products P
+
+
+-----------------------------------------------------------
+
+Select *
+From (SELECT      Row_number() Over(Partition by P.ProductID Order By P.ProductID, SUM(OD.Quantity) Desc) As Puesto,
+			P.ProductID,
+			P.ProductName,
+			P.UnitPrice,
+			C.CompanyName,
+			SUM(OD.Quantity) AS Cantidad
+FROM            Products AS P INNER JOIN
+        [Order Details] AS OD ON P.ProductID = OD.ProductID
+		INNER JOIN Orders AS O ON OD.OrderID = O.OrderID
+		INNER JOIN Customers AS C ON O.CustomerID = C.CustomerID
+GROUP BY P.ProductID, P.ProductName, P.UnitPrice, C.CompanyName
+) As Datos
+Where Datos.Puesto = 1

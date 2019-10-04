@@ -1,0 +1,12 @@
+Select	pr.ProductID,pr.ProductName,pr.UnitPrice ,
+		(Select CompanyName
+			from 	(select		top 1 p.ProductID, C.CompanyName
+			from Products as p join [Order Details] as od
+			on p.ProductID=od.ProductID join Orders as o
+			on od.OrderID=o.OrderID join customers as c
+			on o.CustomerID=c.CustomerID	
+			where p.ProductID=pr.ProductID
+			group by p.ProductID,C.CompanyName,p.ProductName
+			order by p.ProductID, sum(od.Quantity) desc) as td1
+			) as Cliente 
+from	Products as pr
