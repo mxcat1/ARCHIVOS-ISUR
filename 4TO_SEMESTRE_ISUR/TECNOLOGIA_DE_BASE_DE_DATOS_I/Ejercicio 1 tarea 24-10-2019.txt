@@ -1,0 +1,13 @@
+--Distribucion por año y pais
+-- el monto comprado por el año y el pais
+-- Porcentaje que representa ese monto en el año
+--Diferencia con el año anterior
+--AÑO       PAIS            Monto       %       Diferencia
+--1996      Argentina       $50000       50%    +$50000
+--1996      Brazil          $40000       40%    +$40000        =>Total al año =100000
+--1996      Colombia        $10000       10%    +$10000
+--------------------------------------------------------
+--1997      Peru            $10          10%    +$10
+--1997      Brazil          $20          20%    -$39980        =>Total al año = 100
+--1997      Venezuela       $60          60%    +$60
+--1997      Argentina       $10          10%    -$49990
