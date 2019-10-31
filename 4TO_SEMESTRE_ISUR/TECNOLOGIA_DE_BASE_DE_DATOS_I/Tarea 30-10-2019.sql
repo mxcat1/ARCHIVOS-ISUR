@@ -121,3 +121,23 @@ from (select distinct year(o.OrderDate)                                  Año,
      ) TDA1;
 
 
+-- Forma simple
+
+WITH Ventas AS(
+    SELECT distinct YEAR( o.OrderDate) AS Año,
+        o.ShipCountry     AS Pais,
+        SUM(os.Subtotal + o.Freight) over ( partition by year(o.OrderDate),o.ShipCountry
+                                       order by year(o.OrderDate),o.ShipCountry
+                                       ) AS Monto
+    FROM [Order Subtotals] AS OS
+    JOIN Orders AS O ON OS.OrderID = O.OrderID
+)
+SELECT  Año,
+        Pais,
+        Monto,
+        Monto * 100. / SUM( Monto) OVER( PARTITION BY Año) AS Porcentaje,
+        Monto - LAG( Monto, 1, 0) OVER( PARTITION BY Pais ORDER BY Año) AS Diferencia
+FROM Ventas
+ORDER BY Año, Pais;
+
+
