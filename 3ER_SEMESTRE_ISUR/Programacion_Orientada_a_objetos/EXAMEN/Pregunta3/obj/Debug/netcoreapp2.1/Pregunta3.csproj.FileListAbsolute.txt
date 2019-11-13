@@ -1,0 +1,11 @@
+C:\Users\Usuario\Desktop\Pregunta3\bin\Debug\netcoreapp2.1\Pregunta3.deps.json
+C:\Users\Usuario\Desktop\Pregunta3\bin\Debug\netcoreapp2.1\Pregunta3.runtimeconfig.json
+C:\Users\Usuario\Desktop\Pregunta3\bin\Debug\netcoreapp2.1\Pregunta3.runtimeconfig.dev.json
+C:\Users\Usuario\Desktop\Pregunta3\bin\Debug\netcoreapp2.1\Pregunta3.dll
+C:\Users\Usuario\Desktop\Pregunta3\bin\Debug\netcoreapp2.1\Pregunta3.pdb
+C:\Users\Usuario\Desktop\Pregunta3\obj\Debug\netcoreapp2.1\Pregunta3.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\Pregunta3\obj\Debug\netcoreapp2.1\Pregunta3.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Pregunta3\obj\Debug\netcoreapp2.1\Pregunta3.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\Pregunta3\obj\Debug\netcoreapp2.1\Pregunta3.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\Pregunta3\obj\Debug\netcoreapp2.1\Pregunta3.dll
+C:\Users\Usuario\Desktop\Pregunta3\obj\Debug\netcoreapp2.1\Pregunta3.pdb
