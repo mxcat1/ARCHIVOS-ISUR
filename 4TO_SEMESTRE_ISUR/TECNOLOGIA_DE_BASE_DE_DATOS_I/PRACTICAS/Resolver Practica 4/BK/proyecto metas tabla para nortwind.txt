@@ -1,0 +1,39 @@
+--EJE1
+--listado de empleados
+
+--  Empleados
+--  ID
+--  NOMBRE
+--  APELLIDO
+
+--  EMPLEADO        MIN META        MAX META        %CUMPLIDO
+--  nomEMPLEADO     20000           250000          25
+--  nomEMPLEADO     20000           250000          25
+--  nomEMPLEADO     10000           100000          25
+--  nomEMPLEADO     15000           150000          25
+--  nomEMPLEADO     total           total           %100
+
+declare @rando money;
+declare @min date;
+declare @max date;
+
+set @min = (select top 1 OrderDate from Orders);
+set @min = (select top 1 OrderDate from Orders order by 1 desc );
+
+WITH Fechas AS
+         (
+             SELECT
+             TOP (DATEDIFF(month, @min, @max) + 1)
+             n = ROW_NUMBER() OVER (ORDER BY [object_id])
+             FROM sys.all_objects
+         )
+SELECT @rando = FLOOR(RAND()*(3000-1000)+1000)
+FROM Fechas F
+select @rando;
+
+
+insert into Metas
+select distinct format(o.OrderDate,'MMMM-yyyy'),o.EmployeeID,FLOOR(RAND()*(3000-1000)+1000)
+from Orders O,Employees E;
+
+select FLOOR(RAND()*(3000-1000)+1000)  ;
