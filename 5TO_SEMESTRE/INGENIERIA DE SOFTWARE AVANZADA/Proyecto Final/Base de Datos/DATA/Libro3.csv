@@ -1,0 +1,1874 @@
+1,Bagua,1
+2,Aramango,1
+3,Copallin,1
+4,El Parco,1
+5,Imaza,1
+6,La Peca,1
+7,Jumbilla,2
+8,Chisquilla,2
+9,Churuja,2
+10,Corosha,2
+11,Cuispes,2
+12,Florida,2
+13,Jazan,2
+14,Recta,2
+15,San Carlos,2
+16,Shipasbamba,2
+17,Valera,2
+18,Yambrasbamba,2
+19,Chachapoyas,3
+20,Asuncion,3
+21,Balsas,3
+22,Cheto,3
+23,Chiliquin,3
+24,Chuquibamba,3
+25,Granada,3
+26,Huancas,3
+27,La Jalca,3
+28,Leimebamba,3
+29,Levanto,3
+30,Magdalena,3
+31,Mariscal Castilla,3
+32,Molinopampa,3
+33,Montevideo,3
+34,Olleros,3
+35,Quinjalca,3
+36,San Francisco de Daguas,3
+37,San Isidro de Maino,3
+38,Soloco,3
+39,Sonche,3
+40,Nieva,4
+41,El Cenepa,4
+42,Rio Santiago,4
+43,Lamud,5
+44,Camporredondo,5
+45,Cocabamba,5
+46,Colcamar,5
+47,Conila,5
+48,Inguilpata,5
+49,Longuita,5
+50,Lonya Chico,5
+51,Luya,5
+52,Luya Viejo,5
+53,Maria,5
+54,Ocalli,5
+55,Ocumal,5
+56,Pisuquia,5
+57,Providencia,5
+58,San Cristobal,5
+59,San Francisco del Yeso,5
+60,San Jeronimo,5
+61,San Juan de Lopecancha,5
+62,Santa Catalina,5
+63,Santo Tomas,5
+64,Tingo,5
+65,Trita,5
+66,San Nicolas,6
+67,Chirimoto,6
+68,Cochamal,6
+69,Huambo,6
+70,Limabamba,6
+71,Longar,6
+72,Mariscal Benavides,6
+73,Milpuc,6
+74,Omia,6
+75,Santa Rosa,6
+76,Totora,6
+77,Vista Alegre,6
+78,Bagua Grande,7
+79,Cajaruro,7
+80,Cumba,7
+81,El Milagro,7
+82,Jamalca,7
+83,Lonya Grande,7
+84,Yamon,7
+85,Aija,8
+86,Coris,8
+87,Huacllan,8
+88,La Merced,8
+89,Succha,8
+90,Llamellin,9
+91,Aczo,9
+92,Chaccho,9
+93,Chingas,9
+94,Mirgas,9
+95,San Juan de Rontoy,9
+96,Chacas,10
+97,Acochaca,10
+98,Chiquian,11
+99,Abelardo Pardo Lezameta,11
+100,Antonio Raymondi,11
+101,Aquia,11
+102,Cajacay,11
+103,Canis,11
+104,Colquioc,11
+105,Huallanca,11
+106,Huasta,11
+107,Huayllacayan,11
+108,La Primavera,11
+109,Mangas,11
+110,Pacllon,11
+111,San Miguel de Corpanqui,11
+112,Ticllos,11
+113,Carhuaz,12
+114,Acopampa,12
+115,Amashca,12
+116,Anta,12
+117,Ataquero,12
+118,Marcara,12
+119,Pariahuanca,12
+120,San Miguel de Aco,12
+121,Shilla,12
+122,Tinco,12
+123,Yungar,12
+124,San Luis,13
+125,San Nicolas,13
+126,Yauya,13
+127,Casma,14
+128,Buena Vista Alta,14
+129,Comandante Noel,14
+130,Yautan,14
+131,Corongo,15
+132,Aco,15
+133,Bambas,15
+134,Cusca,15
+135,La Pampa,15
+136,Yanac,15
+137,Yupan,15
+138,Huaraz,16
+139,Cochabamba,16
+140,Colcabamba,16
+141,Huanchay,16
+142,Independencia,16
+143,Jangas,16
+144,La Libertad,16
+145,Olleros,16
+146,Pampas,16
+147,Pariacoto,16
+148,Pira,16
+149,Tarica,16
+150,Huari,17
+151,Anra,17
+152,Cajay,17
+153,Chavin de Huantar,17
+154,Huacachi,17
+155,Huacchis,17
+156,Huachis,17
+157,Huantar,17
+158,Masin,17
+159,Paucas,17
+160,Ponto,17
+161,Rahuapampa,17
+162,Rapayan,17
+163,San Marcos,17
+164,San Pedro de Chana,17
+165,Uco,17
+166,Huarmey,18
+167,Cochapeti,18
+168,Culebras,18
+169,Huayan,18
+170,Malvas,18
+171,Caraz,19
+172,Huallanca,19
+173,Huata,19
+174,Huaylas,19
+175,Mato,19
+176,Pamparomas,19
+177,Pueblo Libre,19
+178,Santa Cruz,19
+179,Santo Toribio,19
+180,Yuracmarca,19
+181,Piscobamba,20
+182,Casca,20
+183,Eleazar Guzman Barron,20
+184,Fidel Olivas Escudero,20
+185,Llama,20
+186,Llumpa,20
+187,Lucma,20
+188,Musga,20
+189,Ocros,21
+190,Acas,21
+191,Cajamarquilla,21
+192,Carhuapampa,21
+193,Cochas,21
+194,Congas,21
+195,Llipa,21
+196,San Cristobal de Rajan,21
+197,San Pedro,21
+198,Santiago de Chilcas,21
+199,Cabana,22
+200,Bolognesi,22
+201,Conchucos,22
+202,Huacaschuque,22
+203,Huandoval,22
+204,Lacabamba,22
+205,Llapo,22
+206,Pallasca,22
+207,Pampas,22
+208,Santa Rosa,22
+209,Tauca,22
+210,Pomabamba,23
+211,Huayllan,23
+212,Parobamba,23
+213,Quinuabamba,23
+214,Recuay,24
+215,Catac,24
+216,Cotaparaco,24
+217,Huayllapampa,24
+218,Llacllin,24
+219,Marca,24
+220,Pampas Chico,24
+221,Pararin,24
+222,Tapacocha,24
+223,Ticapampa,24
+224,Chimbote,25
+225,Caceres del Peru,25
+226,Coishco,25
+227,Macate,25
+228,Moro,25
+229,Nepe¤a,25
+230,Samanco,25
+231,Santa,25
+232,Nuevo Chimbote,25
+233,Sihuas,26
+234,Acobamba,26
+235,Alfonso Ugarte,26
+236,Cashapampa,26
+237,Chingalpo,26
+238,Huayllabamba,26
+239,Quiches,26
+240,Ragash,26
+241,San Juan,26
+242,Sicsibamba,26
+243,Yungay,27
+244,Cascapara,27
+245,Mancos,27
+246,Matacoto,27
+247,Quillo,27
+248,Ranrahirca,27
+249,Shupluy,27
+250,Yanama,27
+251,Abancay,28
+252,Chacoche,28
+253,Circa,28
+254,Curahuasi,28
+255,Huanipaca,28
+256,Lambrama,28
+257,Pichirhua,28
+258,San Pedro de Cachora,28
+259,Tamburco,28
+260,Andahuaylas,29
+261,Andarapa,29
+262,Chiara,29
+263,Huancarama,29
+264,Huancaray,29
+265,Huayana,29
+266,Kishuara,29
+267,Pacobamba,29
+268,Pacucha,29
+269,Pampachiri,29
+270,Pomacocha,29
+271,San Antonio de Cachi,29
+272,San Jeronimo,29
+273,San Miguel de Chaccrampa,29
+274,Santa Maria de Chicmo,29
+275,Talavera,29
+276,Tumay Huaraca,29
+277,Turpo,29
+278,Kaquiabamba,29
+279,Jos‚ Mar¡a Arguedas,29
+280,Antabamba,30
+281,El Oro,30
+282,Huaquirca,30
+283,Juan Espinoza Medrano,30
+284,Oropesa,30
+285,Pachaconas,30
+286,Sabaino,30
+287,Chalhuanca,31
+288,Capaya,31
+289,Caraybamba,31
+290,Chapimarca,31
+291,Colcabamba,31
+292,Cotaruse,31
+293,Huayllo,31
+294,Justo Apu Sahuaraura,31
+295,Lucre,31
+296,Pocohuanca,31
+297,San Juan de Chac¤a,31
+298,Sa¤ayca,31
+299,Soraya,31
+300,Tapairihua,31
+301,Tintay,31
+302,Toraya,31
+303,Yanaca,31
+304,Chincheros,32
+305,Anco_Huallo,32
+306,Cocharcas,32
+307,Huaccana,32
+308,Ocobamba,32
+309,Ongoy,32
+310,Uranmarca,32
+311,Ranracancha,32
+312,Rocchacc,32
+313,El Porvenir,32
+314,Los Chankas,32
+315,Tambobamba,33
+316,Cotabambas,33
+317,Coyllurqui,33
+318,Haquira,33
+319,Mara,33
+320,Challhuahuacho,33
+321,Chuquibambilla,34
+322,Curpahuasi,34
+323,Gamarra,34
+324,Huayllati,34
+325,Mamara,34
+326,Micaela Bastidas,34
+327,Pataypampa,34
+328,Progreso,34
+329,San Antonio,34
+330,Santa Rosa,34
+331,Turpay,34
+332,Vilcabamba,34
+333,Virundo,34
+334,Curasco,34
+335,Arequipa,35
+336,Alto Selva Alegre,35
+337,Cayma,35
+338,Cerro Colorado,35
+339,Characato,35
+340,Chiguata,35
+341,Jacobo Hunter,35
+342,La Joya,35
+343,Mariano Melgar,35
+344,Miraflores,35
+345,Mollebaya,35
+346,Paucarpata,35
+347,Pocsi,35
+348,Polobaya,35
+349,Queque¤a,35
+350,Sabandia,35
+351,Sachaca,35
+352,San Juan de Siguas,35
+353,San Juan de Tarucani,35
+354,Santa Isabel de Siguas,35
+355,Santa Rita de Siguas,35
+356,Socabaya,35
+357,Tiabaya,35
+358,Uchumayo,35
+359,Vitor,35
+360,Yanahuara,35
+361,Yarabamba,35
+362,Yura,35
+363,Jose Luis Bustamante y Rivero,35
+364,Camana,36
+365,Jose Maria Quimper,36
+366,Mariano Nicolas Valcarcel,36
+367,Mariscal Caceres,36
+368,Nicolas de Pierola,36
+369,Oco¤a,36
+370,Quilca,36
+371,Samuel Pastor,36
+372,Caraveli,37
+373,Acari,37
+374,Atico,37
+375,Atiquipa,37
+376,Bella Union,37
+377,Cahuacho,37
+378,Chala,37
+379,Chaparra,37
+380,Huanuhuanu,37
+381,Jaqui,37
+382,Lomas,37
+383,Quicacha,37
+384,Yauca,37
+385,Aplao,38
+386,Andagua,38
+387,Ayo,38
+388,Chachas,38
+389,Chilcaymarca,38
+390,Choco,38
+391,Huancarqui,38
+392,Machaguay,38
+393,Orcopampa,38
+394,Pampacolca,38
+395,Tipan,38
+396,U¤on,38
+397,Uraca,38
+398,Viraco,38
+399,Chivay,39
+400,Achoma,39
+401,Cabanaconde,39
+402,Callalli,39
+403,Caylloma,39
+404,Coporaque,39
+405,Huambo,39
+406,Huanca,39
+407,Ichupampa,39
+408,Lari,39
+409,Lluta,39
+410,Maca,39
+411,Madrigal,39
+412,San Antonio de Chuca,39
+413,Sibayo,39
+414,Tapay,39
+415,Tisco,39
+416,Tuti,39
+417,Yanque,39
+418,Majes,39
+419,Chuquibamba,40
+420,Andaray,40
+421,Cayarani,40
+422,Chichas,40
+423,Iray,40
+424,Rio Grande,40
+425,Salamanca,40
+426,Yanaquihua,40
+427,Mollendo,41
+428,Cocachacra,41
+429,Dean Valdivia,41
+430,Islay,41
+431,Mejia,41
+432,Punta de Bombon,41
+433,Cotahuasi,42
+434,Alca,42
+435,Charcana,42
+436,Huaynacotas,42
+437,Pampamarca,42
+438,Puyca,42
+439,Quechualla,42
+440,Sayla,42
+441,Tauria,42
+442,Tomepampa,42
+443,Toro,42
+444,Cangallo,43
+445,Chuschi,43
+446,Los Morochucos,43
+447,Maria Parado de Bellido,43
+448,Paras,43
+449,Totos,43
+450,Ayacucho,44
+451,Acocro,44
+452,Acos Vinchos,44
+453,Carmen Alto,44
+454,Chiara,44
+455,Ocros,44
+456,Pacaycasa,44
+457,Quinua,44
+458,San Jose de Ticllas,44
+459,San Juan Bautista,44
+460,Santiago de Pischa,44
+461,Socos,44
+462,Tambillo,44
+463,Vinchos,44
+464,Jesus Nazareno,44
+465,Andr‚s Avelino C ceres Dorregaray,44
+466,Sancos,45
+467,Carapo,45
+468,Sacsamarca,45
+469,Santiago de Lucanamarca,45
+470,Huanta,46
+471,Ayahuanco,46
+472,Huamanguilla,46
+473,Iguain,46
+474,Luricocha,46
+475,Santillana,46
+476,Sivia,46
+477,Llochegua,46
+478,Canayre,46
+479,Uchuraccay,46
+480,Pucacolpa,46
+481,Chaca,46
+482,San Miguel,47
+483,Anco,47
+484,Ayna,47
+485,Chilcas,47
+486,Chungui,47
+487,Luis Carranza,47
+488,Santa Rosa,47
+489,Tambo,47
+490,Samugari,47
+491,Anchihuay,47
+492,Oronccoy,47
+493,Puquio,48
+494,Aucara,48
+495,Cabana,48
+496,Carmen Salcedo,48
+497,Chavi¤a,48
+498,Chipao,48
+499,Huac-Huas,48
+500,Laramate,48
+501,Leoncio Prado,48
+502,Llauta,48
+503,Lucanas,48
+504,Oca¤a,48
+505,Otoca,48
+506,Saisa,48
+507,San Cristobal,48
+508,San Juan,48
+509,San Pedro,48
+510,San Pedro de Palco,48
+511,Sancos,48
+512,Santa Ana de Huaycahuacho,48
+513,Santa Lucia,48
+514,Coracora,49
+515,Chumpi,49
+516,Coronel Casta¤eda,49
+517,Pacapausa,49
+518,Pullo,49
+519,Puyusca,49
+520,San Francisco de Ravacayco,49
+521,Upahuacho,49
+522,Pausa,50
+523,Colta,50
+524,Corculla,50
+525,Lampa,50
+526,Marcabamba,50
+527,Oyolo,50
+528,Pararca,50
+529,San Javier de Alpabamba,50
+530,San Jose de Ushua,50
+531,Sara Sara,50
+532,Querobamba,51
+533,Belen,51
+534,Chalcos,51
+535,Chilcayoc,51
+536,Huaca¤a,51
+537,Morcolla,51
+538,Paico,51
+539,San Pedro de Larcay,51
+540,San Salvador de Quije,51
+541,Santiago de Paucaray,51
+542,Soras,51
+543,Huancapi,52
+544,Alcamenca,52
+545,Apongo,52
+546,Asquipata,52
+547,Canaria,52
+548,Cayara,52
+549,Colca,52
+550,Huamanquiquia,52
+551,Huancaraylla,52
+552,Huaya,52
+553,Sarhua,52
+554,Vilcanchos,52
+555,Vilcas Huaman,53
+556,Accomarca,53
+557,Carhuanca,53
+558,Concepcion,53
+559,Huambalpa,53
+560,Independencia,53
+561,Saurama,53
+562,Vischongo,53
+563,Cajabamba,54
+564,Cachachi,54
+565,Condebamba,54
+566,Sitacocha,54
+567,Cajamarca,55
+568,Asuncion,55
+569,Chetilla,55
+570,Cospan,55
+571,Enca¤ada,55
+572,Jesus,55
+573,Llacanora,55
+574,Los Ba¤os del Inca,55
+575,Magdalena,55
+576,Matara,55
+577,Namora,55
+578,San Juan,55
+579,Celendin,56
+580,Chumuch,56
+581,Cortegana,56
+582,Huasmin,56
+583,Jorge Chavez,56
+584,Jose Galvez,56
+585,Miguel Iglesias,56
+586,Oxamarca,56
+587,Sorochuco,56
+588,Sucre,56
+589,Utco,56
+590,La Libertad de Pallan,56
+591,Chota,57
+592,Anguia,57
+593,Chadin,57
+594,Chiguirip,57
+595,Chimban,57
+596,Choropampa,57
+597,Cochabamba,57
+598,Conchan,57
+599,Huambos,57
+600,Lajas,57
+601,Llama,57
+602,Miracosta,57
+603,Paccha,57
+604,Pion,57
+605,Querocoto,57
+606,San Juan de Licupis,57
+607,Tacabamba,57
+608,Tocmoche,57
+609,Chalamarca,57
+610,Contumaza,58
+611,Chilete,58
+612,Cupisnique,58
+613,Guzmango,58
+614,San Benito,58
+615,Santa Cruz de Toled,58
+616,Tantarica,58
+617,Yonan,58
+618,Cutervo,59
+619,Callayuc,59
+620,Choros,59
+621,Cujillo,59
+622,La Ramada,59
+623,Pimpingos,59
+624,Querocotillo,59
+625,San Andres de Cutervo,59
+626,San Juan de Cutervo,59
+627,San Luis de Lucma,59
+628,Santa Cruz,59
+629,Santo Domingo de La Capilla,59
+630,Santo Tomas,59
+631,Socota,59
+632,Toribio Casanova,59
+633,Bambamarca,60
+634,Chugur,60
+635,Hualgayoc,60
+636,Jaen,61
+637,Bellavista,61
+638,Chontali,61
+639,Colasay,61
+640,Huabal,61
+641,Las Pirias,61
+642,Pomahuaca,61
+643,Pucara,61
+644,Sallique,61
+645,San Felipe,61
+646,San Jose del Alto,61
+647,Santa Rosa,61
+648,San Ignacio,62
+649,Chirinos,62
+650,Huarango,62
+651,La Coipa,62
+652,Namballe,62
+653,San Jose de Lourdes,62
+654,Tabaconas,62
+655,Pedro Galvez,63
+656,Chancay,63
+657,Eduardo Villanueva,63
+658,Gregorio Pita,63
+659,Ichocan,63
+660,Jose Manuel Quiroz,63
+661,Jose Sabogal,63
+662,San Miguel,64
+663,Bolivar,64
+664,Calquis,64
+665,Catilluc,64
+666,El Prado,64
+667,La Florida,64
+668,Llapa,64
+669,Nanchoc,64
+670,Niepos,64
+671,San Gregorio,64
+672,San Silvestre de Cochan,64
+673,Tongod,64
+674,Union Agua Blanca,64
+675,San Pablo,65
+676,San Bernardino,65
+677,San Luis,65
+678,Tumbaden,65
+679,Santa Cruz,66
+680,Andabamba,66
+681,Catache,66
+682,Chancayba¤os,66
+683,La Esperanza,66
+684,Ninabamba,66
+685,Pulan,66
+686,Saucepampa,66
+687,Sexi,66
+688,Uticyacu,66
+689,Yauyucan,66
+690,Callao,67
+691,Bellavista,67
+692,Carmen de La Legua,67
+693,La Perla,67
+694,La Punta,67
+695,Ventanilla,67
+696,Mi Peru,67
+697,Acomayo,68
+698,Acopia,68
+699,Acos,68
+700,Mosoc Llacta,68
+701,Pomacanchi,68
+702,Rondocan,68
+703,Sangarara,68
+704,Anta,69
+705,Ancahuasi,69
+706,Cachimayo,69
+707,Chinchaypujio,69
+708,Huarocondo,69
+709,Limatambo,69
+710,Mollepata,69
+711,Pucyura,69
+712,Zurite,69
+713,Calca,70
+714,Coya,70
+715,Lamay,70
+716,Lares,70
+717,Pisac,70
+718,San Salvador,70
+719,Taray,70
+720,Yanatile,70
+721,Yanaoca,71
+722,Checca,71
+723,Kunturkanki,71
+724,Langui,71
+725,Layo,71
+726,Pampamarca,71
+727,Quehue,71
+728,Tupac Amaru,71
+729,Sicuani,72
+730,Checacupe,72
+731,Combapata,72
+732,Marangani,72
+733,Pitumarca,72
+734,San Pablo,72
+735,San Pedro,72
+736,Tinta,72
+737,Santo Tomas,73
+738,Capacmarca,73
+739,Chamaca,73
+740,Colquemarca,73
+741,Livitaca,73
+742,Llusco,73
+743,Qui¤ota,73
+744,Velille,73
+745,Cusco,74
+746,Ccorca,74
+747,Poroy,74
+748,San Jeronimo,74
+749,San Sebastian,74
+750,Santiago,74
+751,Saylla,74
+752,Wanchaq,74
+753,Espinar,75
+754,Condoroma,75
+755,Coporaque,75
+756,Ocoruro,75
+757,Pallpata,75
+758,Pichigua,75
+759,Suyckutambo,75
+760,Alto Pichigua,75
+761,Santa Ana,76
+762,Echarate,76
+763,Huayopata,76
+764,Maranura,76
+765,Ocobamba,76
+766,Quellouno,76
+767,Kimbiri,76
+768,Santa Teresa,76
+769,Vilcabamba,76
+770,Pichari,76
+771,Inkawasi,76
+772,Villa Virgen,76
+773,Villa Kintiarina,76
+774,Megantoni,76
+775,Paruro,77
+776,Accha,77
+777,Ccapi,77
+778,Colcha,77
+779,Huanoquite,77
+780,Omacha,77
+781,Paccaritambo,77
+782,Pillpinto,77
+783,Yaurisque,77
+784,Paucartambo,78
+785,Caicay,78
+786,Challabamba,78
+787,Colquepata,78
+788,Huancarani,78
+789,Kos¤ipata,78
+790,Urcos,79
+791,Andahuaylillas,79
+792,Camanti,79
+793,Ccarhuayo,79
+794,Ccatca,79
+795,Cusipata,79
+796,Huaro,79
+797,Lucre,79
+798,Marcapata,79
+799,Ocongate,79
+800,Oropesa,79
+801,Quiquijana,79
+802,Urubamba,80
+803,Chinchero,80
+804,Huayllabamba,80
+805,Machupicchu,80
+806,Maras,80
+807,Ollantaytambo,80
+808,Yucay,80
+809,Acobamba,81
+810,Andabamba,81
+811,Anta,81
+812,Caja,81
+813,Marcas,81
+814,Paucara,81
+815,Pomacocha,81
+816,Rosario,81
+817,Lircay,82
+818,Anchonga,82
+819,Callanmarca,82
+820,Ccochaccasa,82
+821,Chincho,82
+822,Congalla,82
+823,Huanca-Huanca,82
+824,Huayllay Grande,82
+825,Julcamarca,82
+826,San Antonio de Antaparco,82
+827,Santo Tomas de Pata,82
+828,Secclla,82
+829,Castrovirreyna,83
+830,Arma,83
+831,Aurahua,83
+832,Capillas,83
+833,Chupamarca,83
+834,Cocas,83
+835,Huachos,83
+836,Huamatambo,83
+837,Mollepampa,83
+838,San Juan,83
+839,Santa Ana,83
+840,Tantara,83
+841,Ticrapo,83
+842,Churcampa,84
+843,Anco,84
+844,Chinchihuasi,84
+845,El Carmen,84
+846,La Merced,84
+847,Locroja,84
+848,Paucarbamba,84
+849,San Miguel de Mayocc,84
+850,San Pedro de Coris,84
+851,Pachamarca,84
+852,Cosme,84
+853,Huancavelica,85
+854,Acobambilla,85
+855,Acoria,85
+856,Conayca,85
+857,Cuenca,85
+858,Huachocolpa,85
+859,Huayllahuara,85
+860,Izcuchaca,85
+861,Laria,85
+862,Manta,85
+863,Mariscal Caceres,85
+864,Moya,85
+865,Nuevo Occoro,85
+866,Palca,85
+867,Pilchaca,85
+868,Vilca,85
+869,Yauli,85
+870,Ascension,85
+871,Huando,85
+872,Huaytara,86
+873,Ayavi,86
+874,Cordova,86
+875,Huayacundo Arma,86
+876,Laramarca,86
+877,Ocoyo,86
+878,Pilpichaca,86
+879,Querco,86
+880,Quito-Arma,86
+881,San Antonio de Cusicancha,86
+882,San Francisco de Sangayaico,86
+883,San Isidro,86
+884,Santiago de Chocorvos,86
+885,Santiago de Quirahuara,86
+886,Santo Domingo de Capillas,86
+887,Tambo,86
+888,Pampas,87
+889,Acostambo,87
+890,Acraquia,87
+891,Ahuaycha,87
+892,Colcabamba,87
+893,Daniel Hernandez,87
+894,Huachocolpa,87
+895,Huaribamba,87
+896,¥ahuimpuquio,87
+897,Pazos,87
+898,Quishuar,87
+899,Salcabamba,87
+900,Salcahuasi,87
+901,San Marcos de Rocchac,87
+902,Surcubamba,87
+903,Tintay Puncu,87
+904,Quichuas,87
+905,Andaymarca,87
+906,Roble,87
+907,Pichos,87
+908,Santiago de T£cuma,87
+909,Ambo,88
+910,Cayna,88
+911,Colpas,88
+912,Conchamarca,88
+913,Huacar,88
+914,San Francisco,88
+915,San Rafael,88
+916,Tomay Kichwa,88
+917,La Union,89
+918,Chuquis,89
+919,Marias,89
+920,Pachas,89
+921,Quivilla,89
+922,Ripan,89
+923,Shunqui,89
+924,Sillapata,89
+925,Yanas,89
+926,Huacaybamba,90
+927,Canchabamba,90
+928,Cochabamba,90
+929,Pinra,90
+930,Llata,91
+931,Arancay,91
+932,Chavin de Pariarca,91
+933,Jacas Grande,91
+934,Jircan,91
+935,Miraflores,91
+936,Monzon,91
+937,Punchao,91
+938,Pu¤os,91
+939,Singa,91
+940,Tantamayo,91
+941,Huanuco,92
+942,Amarilis,92
+943,Chinchao,92
+944,Churubamba,92
+945,Margos,92
+946,Quisqui,92
+947,San Francisco de Cayran,92
+948,San Pedro de Chaulan,92
+949,Santa Maria del Valle,92
+950,Yarumayo,92
+951,Pillco Marca,92
+952,Yacus,92
+953,San Pablo de Pillao,92
+954,Jesus,93
+955,Ba¤os,93
+956,Jivia,93
+957,Queropalca,93
+958,Rondos,93
+959,San Francisco de Asis,93
+960,San Miguel de Cauri,93
+961,Rupa-Rupa,94
+962,Daniel Alomias Robles,94
+963,Hermilio Valdizan,94
+964,Jose Crespo y Castillo,94
+965,Luyando,94
+966,Mariano Damaso Beraun,94
+967,Pucayacu,94
+968,Castillo Grande,94
+969,Pueblo Nuevo,94
+970,Santo Domingo de Anda,94
+971,Huacrachuco,95
+972,Cholon,95
+973,San Buenaventura,95
+974,La Morada,95
+975,Santa Rosa de Alto Yanajanca,95
+976,Panao,96
+977,Chaglla,96
+978,Molino,96
+979,Umari,96
+980,Puerto Inca,97
+981,Codo del Pozuzo,97
+982,Honoria,97
+983,Tournavista,97
+984,Yuyapichis,97
+985,Chavinillo,98
+986,Cahuac,98
+987,Chacabamba,98
+988,Aparicio Pomares,98
+989,Jacas Chico,98
+990,Obas,98
+991,Pampamarca,98
+992,Choras,98
+993,Chincha Alta,99
+994,Alto Laran,99
+995,Chavin,99
+996,Chincha Baja,99
+997,El Carmen,99
+998,Grocio Prado,99
+999,Pueblo Nuevo,99
+1000,San Juan de Yanac,99
+1001,San Pedro de Huacarpana,99
+1002,Sunampe,99
+1003,Tambo de Mora,99
+1004,Ica,100
+1005,La Tingui¤a,100
+1006,Los Aquijes,100
+1007,Ocucaje,100
+1008,Pachacutec,100
+1009,Parcona,100
+1010,Pueblo Nuevo,100
+1011,Salas,100
+1012,San Jose de los Molinos,100
+1013,San Juan Bautista,100
+1014,Santiago,100
+1015,Subtanjalla,100
+1016,Tate,100
+1017,Yauca del Rosario,100
+1018,Nazca,101
+1019,Changuillo,101
+1020,El Ingenio,101
+1021,Marcona,101
+1022,Vista Alegre,101
+1023,Palpa,102
+1024,Llipata,102
+1025,Rio Grande,102
+1026,Santa Cruz,102
+1027,Tibillo,102
+1028,Pisco,103
+1029,Huancano,103
+1030,Humay,103
+1031,Independencia,103
+1032,Paracas,103
+1033,San Andres,103
+1034,San Clemente,103
+1035,Tupac Amaru Inca,103
+1036,Chanchamayo,104
+1037,Perene,104
+1038,Pichanaqui,104
+1039,San Luis de Shuaro,104
+1040,San Ramon,104
+1041,Vitoc,104
+1042,Chupaca,105
+1043,Ahuac,105
+1044,Chongos Bajo,105
+1045,Huachac,105
+1046,Huamancaca Chico,105
+1047,San Juan de Yscos,105
+1048,San Juan de Jarpa,105
+1049,Tres de Diciembre,105
+1050,Yanacancha,105
+1051,Concepcion,106
+1052,Aco,106
+1053,Andamarca,106
+1054,Chambara,106
+1055,Cochas,106
+1056,Comas,106
+1057,Heroinas Toledo,106
+1058,Manzanares,106
+1059,Mariscal Castilla,106
+1060,Matahuasi,106
+1061,Mito,106
+1062,Nueve de Julio,106
+1063,Orcotuna,106
+1064,San Jose de Quero,106
+1065,Santa Rosa de Ocopa,106
+1066,Huancayo,107
+1067,Carhuacallanga,107
+1068,Chacapampa,107
+1069,Chicche,107
+1070,Chilca,107
+1071,Chongos Alto,107
+1072,Chupuro,107
+1073,Colca,107
+1074,Cullhuas,107
+1075,El Tambo,107
+1076,Huacrapuquio,107
+1077,Hualhuas,107
+1078,Huancan,107
+1079,Huasicancha,107
+1080,Huayucachi,107
+1081,Ingenio,107
+1082,Pariahuanca,107
+1083,Pilcomayo,107
+1084,Pucara,107
+1085,Quichuay,107
+1086,Quilcas,107
+1087,San Agustin,107
+1088,San Jeronimo de Tunan,107
+1089,Sa¤o,107
+1090,Sapallanga,107
+1091,Sicaya,107
+1092,Santo Domingo de Acobamba,107
+1093,Viques,107
+1094,Jauja,108
+1095,Acolla,108
+1096,Apata,108
+1097,Ataura,108
+1098,Canchayllo,108
+1099,Curicaca,108
+1100,El Mantaro,108
+1101,Huamali,108
+1102,Huaripampa,108
+1103,Huertas,108
+1104,Janjaillo,108
+1105,Julcan,108
+1106,Leonor Ordo¤ez,108
+1107,Llocllapampa,108
+1108,Marco,108
+1109,Masma,108
+1110,Masma Chicche,108
+1111,Molinos,108
+1112,Monobamba,108
+1113,Muqui,108
+1114,Muquiyauyo,108
+1115,Paca,108
+1116,Paccha,108
+1117,Pancan,108
+1118,Parco,108
+1119,Pomacancha,108
+1120,Ricran,108
+1121,San Lorenzo,108
+1122,San Pedro de Chunan,108
+1123,Sausa,108
+1124,Sincos,108
+1125,Tunan Marca,108
+1126,Yauli,108
+1127,Yauyos,108
+1128,Junin,109
+1129,Carhuamayo,109
+1130,Ondores,109
+1131,Ulcumayo,109
+1132,Satipo,110
+1133,Coviriali,110
+1134,Llaylla,110
+1135,Mazamari,110
+1136,Pampa Hermosa,110
+1137,Pangoa,110
+1138,Rio Negro,110
+1139,Rio Tambo,110
+1140,Vizcat n del Ene,110
+1141,Tarma,111
+1142,Acobamba,111
+1143,Huaricolca,111
+1144,Huasahuasi,111
+1145,La Union,111
+1146,Palca,111
+1147,Palcamayo,111
+1148,San Pedro de Cajas,111
+1149,Tapo,111
+1150,La Oroya,112
+1151,Chacapalpa,112
+1152,Huay-Huay,112
+1153,Marcapomacocha,112
+1154,Morococha,112
+1155,Paccha,112
+1156,Santa Barbara de Carhuacayan,112
+1157,Santa Rosa de Sacco,112
+1158,Suitucancha,112
+1159,Yauli,112
+1160,Ascope,113
+1161,Chicama,113
+1162,Chocope,113
+1163,Magdalena de Cao,113
+1164,Paijan,113
+1165,Razuri,113
+1166,Santiago de Cao,113
+1167,Casa Grande,113
+1168,Bolivar,114
+1169,Bambamarca,114
+1170,Condormarca,114
+1171,Longotea,114
+1172,Uchumarca,114
+1173,Ucuncha,114
+1174,Chepen,115
+1175,Pacanga,115
+1176,Pueblo Nuevo,115
+1177,Cascas,116
+1178,Lucma,116
+1179,Compin,116
+1180,Sayapullo,116
+1181,Julcan,117
+1182,Calamarca,117
+1183,Carabamba,117
+1184,Huaso,117
+1185,Otuzco,118
+1186,Agallpampa,118
+1187,Charat,118
+1188,Huaranchal,118
+1189,La Cuesta,118
+1190,Mache,118
+1191,Paranday,118
+1192,Salpo,118
+1193,Sinsicap,118
+1194,Usquil,118
+1195,San Pedro de Lloc,119
+1196,Guadalupe,119
+1197,Jequetepeque,119
+1198,Pacasmayo,119
+1199,San Jose,119
+1200,Tayabamba,120
+1201,Buldibuyo,120
+1202,Chillia,120
+1203,Huancaspata,120
+1204,Huaylillas,120
+1205,Huayo,120
+1206,Ongon,120
+1207,Parcoy,120
+1208,Pataz,120
+1209,Pias,120
+1210,Santiago de Challas,120
+1211,Taurija,120
+1212,Urpay,120
+1213,Huamachuco,121
+1214,Chugay,121
+1215,Cochorco,121
+1216,Curgos,121
+1217,Marcabal,121
+1218,Sanagoran,121
+1219,Sarin,121
+1220,Sartimbamba,121
+1221,Santiago de Chuco,122
+1222,Angasmarca,122
+1223,Cachicadan,122
+1224,Mollebamba,122
+1225,Mollepata,122
+1226,Quiruvilca,122
+1227,Santa Cruz de Chuca,122
+1228,Sitabamba,122
+1229,Trujillo,123
+1230,El Porvenir,123
+1231,Florencia de Mora,123
+1232,Huanchaco,123
+1233,La Esperanza,123
+1234,Laredo,123
+1235,Moche,123
+1236,Poroto,123
+1237,Salaverry,123
+1238,Simbal,123
+1239,Victor Larco Herrera,123
+1240,Viru,124
+1241,Chao,124
+1242,Guadalupito,124
+1243,Chiclayo,125
+1244,Chongoyape,125
+1245,Eten,125
+1246,Eten Puerto,125
+1247,Jose Leonardo Ortiz,125
+1248,La Victoria,125
+1249,Lagunas,125
+1250,Monsefu,125
+1251,Nueva Arica,125
+1252,Oyotun,125
+1253,Picsi,125
+1254,Pimentel,125
+1255,Reque,125
+1256,Santa Rosa,125
+1257,Sa¤a,125
+1258,Cayalti,125
+1259,Patapo,125
+1260,Pomalca,125
+1261,Pucala,125
+1262,Tuman,125
+1263,Ferre¤afe,126
+1264,Ca¤aris,126
+1265,Incahuasi,126
+1266,Manuel Antonio Mesones Muro,126
+1267,Pitipo,126
+1268,Pueblo Nuevo,126
+1269,Lambayeque,127
+1270,Chochope,127
+1271,Illimo,127
+1272,Jayanca,127
+1273,Mochumi,127
+1274,Morrope,127
+1275,Motupe,127
+1276,Olmos,127
+1277,Pacora,127
+1278,Salas,127
+1279,San Jose,127
+1280,Tucume,127
+1281,Barranca,128
+1282,Paramonga,128
+1283,Pativilca,128
+1284,Supe,128
+1285,Supe Puerto,128
+1286,Cajatambo,129
+1287,Copa,129
+1288,Gorgor,129
+1289,Huancapon,129
+1290,Manas,129
+1291,Canta,130
+1292,Arahuay,130
+1293,Huamantanga,130
+1294,Huaros,130
+1295,Lachaqui,130
+1296,San Buenaventura,130
+1297,Santa Rosa de Quives,130
+1298,San Vicente de Ca¤ete,131
+1299,Asia,131
+1300,Calango,131
+1301,Cerro Azul,131
+1302,Chilca,131
+1303,Coayllo,131
+1304,Imperial,131
+1305,Lunahuana,131
+1306,Mala,131
+1307,Nuevo Imperial,131
+1308,Pacaran,131
+1309,Quilmana,131
+1310,San Antonio,131
+1311,San Luis,131
+1312,Santa Cruz de Flores,131
+1313,Zu¤iga,131
+1314,Huaral,132
+1315,Atavillos Alto,132
+1316,Atavillos Bajo,132
+1317,Aucallama,132
+1318,Chancay,132
+1319,Ihuari,132
+1320,Lampian,132
+1321,Pacaraos,132
+1322,San Miguel de Acos,132
+1323,Santa Cruz de Andamarca,132
+1324,Sumbilca,132
+1325,Veintisiete de Noviembre,132
+1326,Matucana,133
+1327,Antioquia,133
+1328,Callahuanca,133
+1329,Carampoma,133
+1330,Chicla,133
+1331,Cuenca,133
+1332,Huachupampa,133
+1333,Huanza,133
+1334,Huarochiri,133
+1335,Lahuaytambo,133
+1336,Langa,133
+1337,Laraos,133
+1338,Mariatana,133
+1339,Ricardo Palma,133
+1340,San Andres de Tupicocha,133
+1341,San Antonio,133
+1342,San Bartolome,133
+1343,San Damian,133
+1344,San Juan de Iris,133
+1345,San Juan de Tantaranche,133
+1346,San Lorenzo de Quinti,133
+1347,San Mateo,133
+1348,San Mateo de Otao,133
+1349,San Pedro de Casta,133
+1350,San Pedro de Huancayre,133
+1351,Sangallaya,133
+1352,Santa Cruz de Cocachacra,133
+1353,Santa Eulalia,133
+1354,Santiago de Anchucaya,133
+1355,Santiago de Tuna,133
+1356,Santo Domingo de los Olleros,133
+1357,Surco,133
+1358,Huacho,134
+1359,Ambar,134
+1360,Caleta de Carquin,134
+1361,Checras,134
+1362,Hualmay,134
+1363,Huaura,134
+1364,Leoncio Prado,134
+1365,Paccho,134
+1366,Santa Leonor,134
+1367,Santa Maria,134
+1368,Sayan,134
+1369,Vegueta,134
+1370,Lima,135
+1371,Ancon,135
+1372,Ate,135
+1373,Barranco,135
+1374,Bre¤a,135
+1375,Carabayllo,135
+1376,Chaclacayo,135
+1377,Chorrillos,135
+1378,Cieneguilla,135
+1379,Comas,135
+1380,El Agustino,135
+1381,Independencia,135
+1382,Jesus Maria,135
+1383,La Molina,135
+1384,La Victoria,135
+1385,Lince,135
+1386,Los Olivos,135
+1387,Lurigancho,135
+1388,Lurin,135
+1389,Magdalena del Mar,135
+1390,Pueblo Libre,135
+1391,Miraflores,135
+1392,Pachacamac,135
+1393,Pucusana,135
+1394,Puente Piedra,135
+1395,Punta Hermosa,135
+1396,Punta Negra,135
+1397,Rimac,135
+1398,San Bartolo,135
+1399,San Borja,135
+1400,San Isidro,135
+1401,San Juan de Lurigancho,135
+1402,San Juan de Miraflores,135
+1403,San Luis,135
+1404,San Martin de Porres,135
+1405,San Miguel,135
+1406,Santa Anita,135
+1407,Santa Maria del Mar,135
+1408,Santa Rosa,135
+1409,Santiago de Surco,135
+1410,Surquillo,135
+1411,Villa El Salvador,135
+1412,Villa Maria del Triunfo,135
+1413,Oyon,136
+1414,Andajes,136
+1415,Caujul,136
+1416,Cochamarca,136
+1417,Navan,136
+1418,Pachangara,136
+1419,Yauyos,137
+1420,Alis,137
+1421,Ayauca,137
+1422,Ayaviri,137
+1423,Azangaro,137
+1424,Cacra,137
+1425,Carania,137
+1426,Catahuasi,137
+1427,Chocos,137
+1428,Cochas,137
+1429,Colonia,137
+1430,Hongos,137
+1431,Huampara,137
+1432,Huancaya,137
+1433,Huangascar,137
+1434,Huantan,137
+1435,Hua¤ec,137
+1436,Laraos,137
+1437,Lincha,137
+1438,Madean,137
+1439,Miraflores,137
+1440,Omas,137
+1441,Putinza,137
+1442,Quinches,137
+1443,Quinocay,137
+1444,San Joaquin,137
+1445,San Pedro de Pilas,137
+1446,Tanta,137
+1447,Tauripampa,137
+1448,Tomas,137
+1449,Tupe,137
+1450,Vi¤ac,137
+1451,Vitis,137
+1452,Yurimaguas,138
+1453,Balsapuerto,138
+1454,Jeberos,138
+1455,Lagunas,138
+1456,Santa Cruz,138
+1457,Teniente Cesar Lopez Rojas,138
+1458,Barranca,139
+1459,Cahuapanas,139
+1460,Manseriche,139
+1461,Morona,139
+1462,Pastaza,139
+1463,Andoas,139
+1464,Nauta,140
+1465,Parinari,140
+1466,Tigre,140
+1467,Trompeteros,140
+1468,Urarinas,140
+1469,Ramon Castilla,141
+1470,Pebas,141
+1471,Yavari,141
+1472,San Pablo,141
+1473,Iquitos,142
+1474,Alto Nanay,142
+1475,Fernando Lores,142
+1476,Indiana,142
+1477,Las Amazonas,142
+1478,Mazan,142
+1479,Napo,142
+1480,Punchana,142
+1481,Torres Causana,142
+1482,Belen,142
+1483,San Juan Bautista,142
+1484,Putumayo,142
+1485,Rosa Panduro,142
+1486,Teniente Manuel Clavero,142
+1487,Yaguas,142
+1488,Requena,143
+1489,Alto Tapiche,143
+1490,Capelo,143
+1491,Emilio San Martin,143
+1492,Maquia,143
+1493,Puinahua,143
+1494,Saquena,143
+1495,Soplin,143
+1496,Tapiche,143
+1497,Jenaro Herrera,143
+1498,Yaquerana,143
+1499,Contamana,144
+1500,Inahuaya,144
+1501,Padre Marquez,144
+1502,Pampa Hermosa,144
+1503,Sarayacu,144
+1504,Vargas Guerra,144
+1505,Manu,145
+1506,Fitzcarrald,145
+1507,Madre de Dios,145
+1508,Huepetuhe,145
+1509,I¤apari,146
+1510,Iberia,146
+1511,Tahuamanu,146
+1512,Tambopata,147
+1513,Inambari,147
+1514,Las Piedras,147
+1515,Laberinto,147
+1516,Omate,148
+1517,Chojata,148
+1518,Coalaque,148
+1519,Ichu¤a,148
+1520,La Capilla,148
+1521,Lloque,148
+1522,Matalaque,148
+1523,Puquina,148
+1524,Quinistaquillas,148
+1525,Ubinas,148
+1526,Yunga,148
+1527,Ilo,149
+1528,El Algarrobal,149
+1529,Pacocha,149
+1530,Moquegua,150
+1531,Carumas,150
+1532,Cuchumbaya,150
+1533,Samegua,150
+1534,San Cristobal,150
+1535,Torata,150
+1536,Yanahuanca,151
+1537,Chacayan,151
+1538,Goyllarisquizga,151
+1539,Paucar,151
+1540,San Pedro de Pillao,151
+1541,Santa Ana de Tusi,151
+1542,Tapuc,151
+1543,Vilcabamba,151
+1544,Oxapampa,152
+1545,Chontabamba,152
+1546,Huancabamba,152
+1547,Palcazu,152
+1548,Pozuzo,152
+1549,Puerto Bermudez,152
+1550,Villa Rica,152
+1551,Constituci¢n,152
+1552,Chaupimarca,153
+1553,Huachon,153
+1554,Huariaca,153
+1555,Huayllay,153
+1556,Ninacaca,153
+1557,Pallanchacra,153
+1558,Paucartambo,153
+1559,San Francisco de Asis de Yarusyacan,153
+1560,Simon Bolivar,153
+1561,Ticlacayan,153
+1562,Tinyahuarco,153
+1563,Vicco,153
+1564,Yanacancha,153
+1565,Ayabaca,154
+1566,Frias,154
+1567,Jilili,154
+1568,Lagunas,154
+1569,Montero,154
+1570,Pacaipampa,154
+1571,Paimas,154
+1572,Sapillica,154
+1573,Sicchez,154
+1574,Suyo,154
+1575,Huancabamba,155
+1576,Canchaque,155
+1577,El Carmen de La Frontera,155
+1578,Huarmaca,155
+1579,Lalaquiz,155
+1580,San Miguel de El Faique,155
+1581,Sondor,155
+1582,Sondorillo,155
+1583,Chulucanas,156
+1584,Buenos Aires,156
+1585,Chalaco,156
+1586,La Matanza,156
+1587,Morropon,156
+1588,Salitral,156
+1589,San Juan de Bigote,156
+1590,Santa Catalina de Mossa,156
+1591,Santo Domingo,156
+1592,Yamango,156
+1593,Paita,157
+1594,Amotape,157
+1595,Arenal,157
+1596,Colan,157
+1597,La Huaca,157
+1598,Tamarindo,157
+1599,Vichayal,157
+1600,Piura,158
+1601,Castilla,158
+1602,Catacaos,158
+1603,Cura Mori,158
+1604,El Tallan,158
+1605,La Arena,158
+1606,La Union,158
+1607,Las Lomas,158
+1608,Tambo Grande,158
+1609,26 de Octubre,158
+1610,Sechura,159
+1611,Bellavista de La Union,159
+1612,Bernal,159
+1613,Cristo Nos Valga,159
+1614,Vice,159
+1615,Rinconada Llicuar,159
+1616,Sullana,160
+1617,Bellavista,160
+1618,Ignacio Escudero,160
+1619,Lancones,160
+1620,Marcavelica,160
+1621,Miguel Checa,160
+1622,Querecotillo,160
+1623,Salitral,160
+1624,Pari¤as,161
+1625,El Alto,161
+1626,La Brea,161
+1627,Lobitos,161
+1628,Los Organos,161
+1629,Mancora,161
+1630,Azangaro,162
+1631,Achaya,162
+1632,Arapa,162
+1633,Asillo,162
+1634,Caminaca,162
+1635,Chupa,162
+1636,Jose Domingo Choquehuanca,162
+1637,Mu¤ani,162
+1638,Potoni,162
+1639,Saman,162
+1640,San Anton,162
+1641,San Jose,162
+1642,San Juan de Salinas,162
+1643,Santiago de Pupuja,162
+1644,Tirapata,162
+1645,Macusani,163
+1646,Ajoyani,163
+1647,Ayapata,163
+1648,Coasa,163
+1649,Corani,163
+1650,Crucero,163
+1651,Ituata,163
+1652,Ollachea,163
+1653,San Gaban,163
+1654,Usicayos,163
+1655,Juli,164
+1656,Desaguadero,164
+1657,Huacullani,164
+1658,Kelluyo,164
+1659,Pisacoma,164
+1660,Pomata,164
+1661,Zepita,164
+1662,Ilave,165
+1663,Capazo,165
+1664,Pilcuyo,165
+1665,Santa Rosa,165
+1666,Conduriri,165
+1667,Huancane,166
+1668,Cojata,166
+1669,Huatasani,166
+1670,Inchupalla,166
+1671,Pusi,166
+1672,Rosaspata,166
+1673,Taraco,166
+1674,Vilque Chico,166
+1675,Lampa,167
+1676,Cabanilla,167
+1677,Calapuja,167
+1678,Nicasio,167
+1679,Ocuviri,167
+1680,Palca,167
+1681,Paratia,167
+1682,Pucara,167
+1683,Santa Lucia,167
+1684,Vilavila,167
+1685,Ayaviri,168
+1686,Antauta,168
+1687,Cupi,168
+1688,Llalli,168
+1689,Macari,168
+1690,Nu¤oa,168
+1691,Orurillo,168
+1692,Santa Rosa,168
+1693,Umachiri,168
+1694,Moho,169
+1695,Conima,169
+1696,Huayrapata,169
+1697,Tilali,169
+1698,Puno,170
+1699,Acora,170
+1700,Amantani,170
+1701,Atuncolla,170
+1702,Capachica,170
+1703,Chucuito,170
+1704,Coata,170
+1705,Huata,170
+1706,Ma¤azo,170
+1707,Paucarcolla,170
+1708,Pichacani,170
+1709,Plateria,170
+1710,San Antonio,170
+1711,Tiquillaca,170
+1712,Vilque,170
+1713,Putina,171
+1714,Ananea,171
+1715,Pedro Vilca Apaza,171
+1716,Quilcapuncu,171
+1717,Sina,171
+1718,Juliaca,172
+1719,Cabana,172
+1720,Cabanillas,172
+1721,Caracoto,172
+1722,San Miguel,172
+1723,Sandia,173
+1724,Cuyocuyo,173
+1725,Limbani,173
+1726,Patambuco,173
+1727,Phara,173
+1728,Quiaca,173
+1729,San Juan del Oro,173
+1730,Yanahuaya,173
+1731,Alto Inambari,173
+1732,San Pedro de Putina Punco,173
+1733,Yunguyo,174
+1734,Anapia,174
+1735,Copani,174
+1736,Cuturapi,174
+1737,Ollaraya,174
+1738,Tinicachi,174
+1739,Unicachi,174
+1740,Bellavista,175
+1741,Alto Biavo,175
+1742,Bajo Biavo,175
+1743,Huallaga,175
+1744,San Pablo,175
+1745,San Rafael,175
+1746,San Jose de Sisa,176
+1747,Agua Blanca,176
+1748,San Martin,176
+1749,Santa Rosa,176
+1750,Shatoja,176
+1751,Saposoa,177
+1752,Alto Saposoa,177
+1753,El Eslabon,177
+1754,Piscoyacu,177
+1755,Sacanche,177
+1756,Tingo de Saposoa,177
+1757,Lamas,178
+1758,Alonso de Alvarado,178
+1759,Barranquita,178
+1760,Caynarachi,178
+1761,Cu¤umbuqui,178
+1762,Pinto Recodo,178
+1763,Rumisapa,178
+1764,San Roque de Cumbaza,178
+1765,Shanao,178
+1766,Tabalosos,178
+1767,Zapatero,178
+1768,Juanjui,179
+1769,Campanilla,179
+1770,Huicungo,179
+1771,Pachiza,179
+1772,Pajarillo,179
+1773,Moyobamba,180
+1774,Calzada,180
+1775,Habana,180
+1776,Jepelacio,180
+1777,Soritor,180
+1778,Yantalo,180
+1779,Picota,181
+1780,Buenos Aires,181
+1781,Caspisapa,181
+1782,Pilluana,181
+1783,Pucacaca,181
+1784,San Cristobal,181
+1785,San Hilarion,181
+1786,Shamboyacu,181
+1787,Tingo de Ponasa,181
+1788,Tres Unidos,181
+1789,Rioja,182
+1790,Awajun,182
+1791,Elias Soplin Vargas,182
+1792,Nueva Cajamarca,182
+1793,Pardo Miguel,182
+1794,Posic,182
+1795,San Fernando,182
+1796,Yorongos,182
+1797,Yuracyacu,182
+1798,Tarapoto,183
+1799,Alberto Leveau,183
+1800,Cacatachi,183
+1801,Chazuta,183
+1802,Chipurana,183
+1803,El Porvenir,183
+1804,Huimbayoc,183
+1805,Juan Guerra,183
+1806,La Banda de Shilcayo,183
+1807,Morales,183
+1808,Papaplaya,183
+1809,San Antonio,183
+1810,Sauce,183
+1811,Shapaja,183
+1812,Tocache,184
+1813,Nuevo Progreso,184
+1814,Polvora,184
+1815,Shunte,184
+1816,Uchiza,184
+1817,Candarave,185
+1818,Cairani,185
+1819,Camilaca,185
+1820,Curibaya,185
+1821,Huanuara,185
+1822,Quilahuani,185
+1823,Locumba,186
+1824,Ilabaya,186
+1825,Ite,186
+1826,Tacna,187
+1827,Alto de La Alianza,187
+1828,Calana,187
+1829,Ciudad Nueva,187
+1830,Inclan,187
+1831,Pachia,187
+1832,Palca,187
+1833,Pocollay,187
+1834,Sama,187
+1835,Coronel Gregorio Albarracin Lanchipa,187
+1836,La Yarada-Los Palos,187
+1837,Tarata,188
+1838,Heroes Albarracin,188
+1839,Estique,188
+1840,Estique-Pampa,188
+1841,Sitajara,188
+1842,Susapaya,188
+1843,Tarucachi,188
+1844,Ticaco,188
+1845,Zorritos,189
+1846,Casitas,189
+1847,Canoas de Punta Sal,189
+1848,Tumbes,190
+1849,Corrales,190
+1850,La Cruz,190
+1851,Pampas de Hospital,190
+1852,San Jacinto,190
+1853,San Juan de La Virgen,190
+1854,Zarumilla,191
+1855,Aguas Verdes,191
+1856,Matapalo,191
+1857,Papayal,191
+1858,Raymondi,192
+1859,Sepahua,192
+1860,Tahuania,192
+1861,Yurua,192
+1862,Calleria,193
+1863,Campoverde,193
+1864,Iparia,193
+1865,Masisea,193
+1866,Yarinacocha,193
+1867,Nueva Requena,193
+1868,Manantay,193
+1869,Padre Abad,194
+1870,Irazola,194
+1871,Curimana,194
+1872,Neshuya,194
+1873,Alexander von Humboldt,194
+1874,Purus,195
