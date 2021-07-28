@@ -1,0 +1,25 @@
+En base al código en Python de la Agenda de Contacto, hacer las siguientes modificaciones:
+
+Traducir al español la interfaz gráfica de la Agenda, incluye los mensajes.
+Dividir el campo Name en tres nuevos campos: Nombre(s), Apellido Materno, Apellido Paterno.
+Agregar el campo celular.
+Agregar el campo fecha de nacimiento y calcular la edad.
+Agregar los campo tipo de documento y número de documento.
+Validad todos los campos, por ejemplo:
+Que no estén vacíos, que la fecha de nacimiento sea válida, que el número de documento no sea mayor ni menor  a 8 dígitos, para el caso del DNI, que el correo electrónico sea válido, etc. 
+Debe permitir realizar búsquedas por cada uno de los campos. 
+
+Al finalizar la agenda debe contener:
+Traducción de todas las opciones y mensajes.
+Los siguientes campos:
+Nombre(s)
+Apellido Paterno.
+Apellido Materno.
+Número fijo.
+Número celular.
+Fecha de Nacimiento.
+Cálculo de la edad.
+Tipo de documento.
+Número de documento.
+Correo electrónico.
+Debe permitir la búsqueda por todos campos de la agenda.
