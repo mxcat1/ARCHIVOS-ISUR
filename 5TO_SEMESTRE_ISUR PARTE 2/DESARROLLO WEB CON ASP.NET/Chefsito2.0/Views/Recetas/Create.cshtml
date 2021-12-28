@@ -1,0 +1,66 @@
+﻿@model Chefsito2._0.Models.RecetaModelo
+@{
+    ViewData["Title"] = "Agregar Nueva Receta";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <h3>Agregar una Nueva Receta</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-10">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <form method="post" asp-action="Create" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label asp-for="NombreReceta" class="control-label"></label>
+                    <input asp-for="NombreReceta" class="form-control" />
+                    <span asp-validation-for="NombreReceta" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="DescripcionReceta" class="control-label"></label>
+                    <input asp-for="DescripcionReceta" class="form-control" />
+                    <span asp-validation-for="DescripcionReceta" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="IngredientesReceta" class="control-label"></label>
+                    <textarea asp-for="IngredientesReceta" class="form-control" rows="10"></textarea>
+                    <span asp-validation-for="IngredientesReceta" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="DetalleReceta" class="control-label"></label>
+                    <textarea asp-for="DetalleReceta" class="form-control" rows="10"></textarea>
+                    <span asp-validation-for="DetalleReceta" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="CategoriaFK" class="control-label"></label>
+                    <select asp-for="CategoriaFK" class="form-control" asp-items="ViewBag.Categoria"></select>
+                    <span asp-validation-for="DescripcionReceta" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input asp-for="ImagenReceta" class="form-control" />
+                    <label asp-for="ImagenReceta" class="control-label"></label>
+                    <span asp-validation-for="ImagenReceta" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Agregar Receta" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts{ 
+    @{ <partial name="_ValidationScriptsPartial" />}
+<script>
+    $(document).ready(function () {
+        $('.custom-file-input').on("change", function () {
+            let filename = $(this).val().split("\\".pop());
+            $(this).next('.custom-file-label').html(filename);
+        })
+    })
+</script>
+}
+

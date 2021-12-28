@@ -1,0 +1,86 @@
+﻿@page "/fetchdata"
+@inject HttpClient Http
+
+
+
+<h1>Weather forecast</h1>
+
+<p>This component demonstrates fetching data from the server.</p>
+
+@if (forecasts == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Temp. (C)</th>
+                <th>Temp. (F)</th>
+                <th>Summary</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var forecast in forecasts)
+            {
+                <tr>
+                    <td>@forecast.Date.ToShortDateString()</td>
+                    <td>@forecast.TemperatureC</td>
+                    <td>@forecast.TemperatureF</td>
+                    <td>@forecast.Summary</td>
+                </tr>
+            }
+            @foreach (var model in models)
+            {
+                <tr>
+                    <td>@model.Id</td>
+                    <td>@model.NombreReceta</td>
+                    <td>@model.DescripcionReceta</td>
+                    <td>@model.ImagenReceta</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+<input type="text" @bind="nombre"/>
+<span>@nombre</span>
+<input type="text" @bind="descripcion"/>
+<input type="file" @bind="imagen"/>
+<span>@imagen</span>
+<button @onclick="nuevareceta">Nueva Receta</button>
+
+@code {
+    private WeatherForecast[] forecasts;
+    private List<Chefcitov3.Tablas.RecetasTabla> models;
+    private Postgrest.Client cliente = Postgrest.Client.Initialize("http://localhost:3000");
+
+    private string nombre,descripcion,imagen;
+
+    protected override async Task OnInitializedAsync()
+    {
+        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("sample-data/weather.json");
+
+        var response = await cliente.Table<Chefcitov3.Tablas.RecetasTabla>().Get();
+        models = response.Models;
+    }
+    private async Task nuevareceta()
+    {
+        // Insert
+        var nuevareceta1 = new Chefcitov3.Tablas.RecetasTabla { NombreReceta = nombre, DescripcionReceta = descripcion,ImagenReceta=imagen };
+        await cliente.Table<Chefcitov3.Tablas.RecetasTabla>().Insert(nuevareceta1);
+    }
+
+    public class WeatherForecast
+    {
+        public DateTime Date { get; set; }
+
+        public int TemperatureC { get; set; }
+
+        public string Summary { get; set; }
+
+        public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
+    }
+
+}

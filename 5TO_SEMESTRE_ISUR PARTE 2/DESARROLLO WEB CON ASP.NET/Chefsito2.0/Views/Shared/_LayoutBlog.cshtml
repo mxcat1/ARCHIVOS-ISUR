@@ -1,0 +1,81 @@
+﻿@inject SignInManager<IdentityUser> SignInManager
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Chefsito2._0</title>
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="~/lib/fontawesome-free/css/all.css">
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="~/css/adminlte.css" />
+    <!-- overlayScrollbars -->
+    <link rel="stylesheet" href="~/lib/overlayScrollbars/css/OverlayScrollbars.css">
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body >
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand d-flex justify-content-center" asp-area="" asp-controller="Recetas" asp-action="RecetasBlog">
+            <img src="~/img/Chefcito-243x300.jpg" alt="Chefcito Logo" class="brand-image img-circle elevation-3" style="opacity: .8;width:60px">
+            <span class="display-4">CHEFCITO 2.0</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-0">
+                <li class="nav-item active">
+                    <a class="nav-link" asp-area="" asp-controller="Recetas" asp-action="RecetasBlog">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-area="" asp-controller="Recetas" asp-action="RecetasBusquedad">Recetas</a>
+                </li>
+                <li class="nav-item">
+                    @if (SignInManager.IsSignedIn(User))
+                    {
+                        <a asp-controller="Recetas" asp-action="index" class="d-block">@User.Identity.Name</a>
+                    }
+                    else
+                    {
+                        <a class="nav-link" asp-area="" asp-controller="Cuentas" asp-action="LoginUsuario">Login</a>
+                    }
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    @RenderBody()
+
+    <footer class="bg-black card-footer">
+        &copy; 2021 - Chefsito2._0 - <a asp-area="" asp-controller="Recetas" asp-action="RecetasBlog">Privacy</a>
+        All rights reserved.
+
+        <div class="float-right d-none d-sm-inline-block">
+            <b>Version</b> 2.0
+
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <!-- jQuery UI 1.11.4 -->
+    <script src="~/lib/JqueryUI/jquery-ui.js"></script>
+    <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+    <script>
+        $.widget.bridge('uibutton', $.ui.button)
+    </script>
+    <!-- Bootstrap 4 -->
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <!-- overlayScrollbars -->
+    <script src="~/lib/overlayScrollbars/js/jquery.overlayScrollbars.js"></script>
+    <!-- AdminLTE App -->
+    <script src="~/js/adminlte.js"></script>
+    <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+    <script src="~/js/pages/dashboard.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

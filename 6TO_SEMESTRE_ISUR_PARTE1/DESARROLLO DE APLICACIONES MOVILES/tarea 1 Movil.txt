@@ -1,0 +1,1 @@
+Diseñar la interfaz en android para una palicacion q calcule el IMC de una persona

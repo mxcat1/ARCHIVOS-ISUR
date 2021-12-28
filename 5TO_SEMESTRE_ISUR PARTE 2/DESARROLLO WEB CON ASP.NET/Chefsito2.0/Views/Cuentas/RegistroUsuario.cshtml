@@ -1,0 +1,72 @@
+﻿@model RegistroUserModel
+@{
+    ViewData["Title"] = "Registro Usuario";
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+
+<div class="register-box">
+    <div class="card card-outline card-primary">
+        <div class="card-header text-center">
+            <p class="h1"><b>Chefcito</b>2.0</p>
+        </div>
+        <div class="card-body">
+            <p class="login-box-msg">Registrar Nuevo Usuario</p>
+
+            <form method="post">
+                <div asp-validation-summary="All" class="text-danger"></div>
+                <div class="input-group mb-3">
+                    <input asp-for="Email" class="form-control" placeholder="Email">
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fas fa-envelope"></span>
+                        </div>
+                    </div>
+
+                </div>
+                <span asp-validation-for="Email" class="text-danger"></span>
+                <div class="input-group mb-3">
+                    <input asp-for="Password" class="form-control" placeholder="Password">
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fas fa-lock"></span>
+                        </div>
+                    </div>
+
+                </div>
+                <span asp-validation-for="Password" class="text-danger"></span>
+                <div class="input-group mb-3">
+                    <input asp-for="PasswordValidar" class="form-control" placeholder="Confirmar password">
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fas fa-lock"></span>
+                        </div>
+                    </div>
+
+                </div>
+                <span asp-validation-for="PasswordValidar" class="text-danger"></span>
+                <div class="row">
+                    <!-- /.col -->
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary btn-block">Registrar</button>
+                    </div>
+                    <!-- /.col -->
+                </div>
+            </form>
+
+            <a asp-area="" asp-controller="Cuentas" asp-action="LoginUsuario" class="text-center">Ya soy Usuario Registrado</a>
+        </div>
+        <!-- /.form-box -->
+    </div><!-- /.card -->
+</div>
+<!-- /.register-box -->
+@section Scripts{
+    @{<partial name="_ValidationScriptsPartial" />}
+    <script>
+        $(document).ready(function () {
+            $('.custom-file-input').on("change", function () {
+                let filename = $(this).val().split("\\".pop());
+                $(this).next('.custom-file-label').html(filename);
+            })
+        })
+    </script>
+}

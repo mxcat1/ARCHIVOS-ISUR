@@ -1,0 +1,7 @@
+C:\Users\mxcat\source\repos\Chefcito\obj\Debug\Chefcito.csprojAssemblyReference.cache
+C:\Users\mxcat\source\repos\Chefcito\obj\Debug\Chefcito.csproj.CoreCompileInputs.cache
+C:\Users\mxcat\source\repos\Chefcito\bin\Chefcito.dll.config
+C:\Users\mxcat\source\repos\Chefcito\bin\Chefcito.dll
+C:\Users\mxcat\source\repos\Chefcito\bin\Chefcito.pdb
+C:\Users\mxcat\source\repos\Chefcito\obj\Debug\Chefcito.dll
+C:\Users\mxcat\source\repos\Chefcito\obj\Debug\Chefcito.pdb

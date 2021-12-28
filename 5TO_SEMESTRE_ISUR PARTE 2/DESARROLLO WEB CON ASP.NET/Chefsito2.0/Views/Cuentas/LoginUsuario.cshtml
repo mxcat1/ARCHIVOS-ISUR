@@ -1,0 +1,83 @@
+﻿@model LoginUserModelo
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+
+<div class="login-box">
+    <!-- /.login-logo -->
+    <div class="card card-outline card-primary">
+        <div class="card-header text-center">
+            <p class="h1"><b>Chefcito</b>2.0</p>
+        </div>
+        <div class="card-body">
+            <p class="login-box-msg">Regístrese para iniciar su sesión</p>
+
+            <form method="post">
+                <div asp-validation-summary="All" class="text-danger"></div>
+                <div class="input-group mb-3">
+                    <input asp-for="Email" class="form-control" placeholder="Email">
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fas fa-envelope"></span>
+                        </div>
+                    </div>
+
+                </div>
+                <span asp-validation-for="Email" class="text-danger"></span>
+                <div class="input-group mb-3">
+                    <input asp-for="Password" class="form-control" placeholder="Password">
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fas fa-lock"></span>
+                        </div>
+                    </div>
+
+                </div>
+                <span asp-validation-for="Password" class="text-danger"></span>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="icheck-primary">
+                            <input asp-for="Recuerdame">
+                            <label asp-for="Recuerdame">
+                                @Html.DisplayNameFor(m => m.Recuerdame)
+                            </label>
+                        </div>
+                    </div>
+                    <!-- /.col -->
+                    <div class="col-3">
+                        <button type="submit" class="btn btn-primary btn-block">Login</button>
+                    </div>
+                    <div class="col-3">
+                        <a asp-area="" asp-controller="Recetas" asp-action="Index" class="btn btn-primary btn-warning">Invitado</a>
+                    </div>
+                    <!-- /.col -->
+                </div>
+            </form>
+
+
+            <p class="mb-0">
+                <a asp-area="" asp-controller="Cuentas" asp-action="RegistroUsuario" class="text-center">Registrarse</a>
+            </p>
+            <p class="mb-0">
+                <a asp-area="" asp-controller="Recetas" asp-action="RecetasBlog" class="text-center">Blog de Recetas</a>
+            </p>
+        </div>
+        <!-- /.card-body -->
+    </div>
+    <!-- /.card -->
+</div>
+<!-- /.login-box -->
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+    <script>
+        $(document).ready(function () {
+            $('.custom-file-input').on("change", function () {
+                let filename = $(this).val().split("\\".pop());
+                $(this).next('.custom-file-label').html(filename);
+            })
+        })
+    </script>
+}

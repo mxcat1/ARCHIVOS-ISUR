@@ -1,0 +1,5 @@
+Base de Datos Sql server express no .mdb
+
+comando para la Migracion
+add-migrate migration1
+update-database

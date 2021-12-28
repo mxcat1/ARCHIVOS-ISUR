@@ -1,0 +1,67 @@
+﻿@model IEnumerable<Chefsito2._0.Models.Receta>
+@{
+    ViewData["Title"] = "Inicio";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+            <h3>Lista de Recetas</h3>
+        </div>
+        <div class="col-sm-6">
+            <a class="btn btn-success d-block" asp-action="Create" asp-controller="Recetas">Agregar Nueva Receta</a>
+        </div>
+    </div>
+    <div class="row">
+        @if (Model.Count() > 0)
+        {
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <td>#</td>
+                        <td>@Html.DisplayNameFor(m => m.NombreReceta)</td>
+                        <td>@Html.DisplayNameFor(m => m.DescripcionReceta)</td>
+                        <td>Categoria</td>
+                        <td>@Html.DisplayNameFor(m => m.ImagenReceta)</td>
+                        <td>Acciones</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{int i = 1;}
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@i</td>
+                            <td>@item.NombreReceta</td>
+                            <td>@item.DescripcionReceta</td>
+                            <td>@item.Categoria.NombreCategoria</td>
+                            <td><img src="~/imagenes/@item.ImagenReceta" alt="Imagen" width="100px" class="img-fluid" /></td>
+                            <td>
+                                <a asp-controller="Recetas" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning">Editar</a>
+                                <form asp-controller="Recetas" asp-action="Delete" asp-route-id="@item.Id" method="post">
+                                    <button type="submit" class="btn btn-danger">Eliminar</button>
+                                </form>
+                            </td>
+                        </tr>
+                        i++;
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <p>No exiten registros</p>
+        }
+    </div>
+</div>
+@section Scripts{
+
+    <script>
+        document.onsubmit = function () {
+            return confirm('¿Esta Usted Seguro de Eliminar esta Receta?');
+        }
+    </script>
+
+}
+
