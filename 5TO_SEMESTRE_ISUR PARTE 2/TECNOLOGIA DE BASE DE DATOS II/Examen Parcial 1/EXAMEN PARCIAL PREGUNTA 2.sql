@@ -26,13 +26,13 @@ GO
 EXECUTE msdb.dbo.sysmail_add_account_sp
         @account_name = 'Isur Email',
         @description = 'Correo que se manda para hacer notificaciones',
-        @email_address = 'c.vilca.apaza@isur.edu.pe',
+        @email_address = '',
         @display_name = 'Correo Automatico',
         @mailserver_name = 'smtp.office365.com',
         @port = 587,
         @enable_ssl = 1,
-        @username = 'c.vilca.apaza@isur.edu.pe',
-        @password = 'XX@mxcat@XX';
+        @username = '',
+        @password = '';
 GO
 
 EXECUTE msdb.dbo.sysmail_add_profileaccount_sp
